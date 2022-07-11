@@ -162,7 +162,8 @@ class ActionChesedMatch(Action):
 
         response += "\n" \
                     "Not able to find what you are looking for?" \
-                    "\n Get in touch directly with one our our case managers: text +1 (833) 424-3733 on Whatsapp"
+                    "\n Get in touch directly with one our our case managers: text +1 (833) 424-3733 on Whatsapp." \
+                    "\n  If you ever need this service again, just say 'hi'!"
 
         dispatcher.utter_message(text=response)
 
